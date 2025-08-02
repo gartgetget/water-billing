@@ -39,16 +39,20 @@ body {
   box-shadow: #304547  0px 0px 10px;
   margin-right: 30px; 
 }
-/* .Button1 :hover {
-  background-color: #c3c3c3; 
-  color: black;
-  box-shadow: white 0px 0px 10px;
-} */
+.Button1:hover {
+  background-color: #6DC7D1; 
+  color: white;
+}
 
 .Button2{
   background-color: black;
   color: white;
   box-shadow: #304547  0px 0px 10px;
+}
+
+.Button2:hover {
+  background-color: #1b5a5a; 
+  color: white;
 }
 .acc{
   display: flex;
@@ -141,6 +145,10 @@ td {
   height: 50px;
   font-size: 12px;
 }
+.Button4:hover {
+  background-color: #6DC7D1; 
+  color: white;
+}
 .query {
   display: flex;
   flex-direction: row;
@@ -189,17 +197,16 @@ td {
   padding: 10px;
   font-size: 14spx;
   background-color: #6DC7D1;
-  background-color: ;
   color: white;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
   margin-left: 12px;
   box-shadow: #304547  0px 0px 5px;
+  font-size: 16px;
 }
 
 .query-form button:hover {
-  background-color: darkgray;
+  background-color: #1b5a5a;
 }
 
 .query-result {
