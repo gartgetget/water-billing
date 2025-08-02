@@ -6,8 +6,8 @@
                 datasets: [{
                     label: 'Monthly Water Usage (m³)',
                     data: [12, 19, 3, 5, 2, 3],
-                    backgroundColor: 'gray',
-                    borderColor: 'black',
+                    backgroundColor: '#6DC7D1',
+                    borderColor: '#E2F3F4',
                     borderWidth: 1
                 }]
             },
