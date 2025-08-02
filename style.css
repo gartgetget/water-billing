@@ -40,18 +40,18 @@ body {
   margin-right: 30px; 
 }
 .Button1:hover {
-  background-color: #6DC7D1; 
+  background-color: #1b5a5a; 
   color: white;
 }
 
 .Button2{
-  background-color: black;
+  background-color: #1b5a5a;
   color: white;
   box-shadow: #304547  0px 0px 10px;
 }
 
 .Button2:hover {
-  background-color: #1b5a5a; 
+  background-color: #6DC7D1; 
   color: white;
 }
 .acc{
@@ -73,6 +73,11 @@ body {
   width: 170px;
   height: 50px;
   font-size: 12px;
+}
+
+.Button3:hover {
+  background-color: #6DC7D1; 
+  color: white;
 }
 
 .graph {
@@ -199,6 +204,7 @@ td {
   background-color: #6DC7D1;
   color: white;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
   margin-left: 12px;
   box-shadow: #304547  0px 0px 5px;
@@ -227,9 +233,9 @@ td {
   height: 50px;
   background-color: #6DC7D1;
   border-top: 1px solid #c3c3c3;
+  color: white;
 }
 
 .footer-text {
   font-size: 14px;
-  color: #333;
 }
